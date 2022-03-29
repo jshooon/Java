@@ -1,0 +1,37 @@
+/*
+ 파일이름 : AddressBook.java
+ 작 성 자 : 지 성훈
+ 작 성 일 : 2022. 02. 17(목)
+ 프로그램 설명 : AddressBook에 대한 실습 내용.
+ */
+package exam10;
+
+class HighFriend extends Friend{ // 고등학교 친구(자식클래스)
+	
+	// filed(멤버변수)
+	private String work; // 직업
+	
+	//HighFriend(){super();}
+	HighFriend(String name, String phoneNum, String address, String work){
+		super(name, phoneNum, address);// 부모 필드(field) 초기화 의무
+		this.work = work;
+	}
+	
+	// Method(멤버메서드)
+	public void displayFriendInfo() {
+		super.displayFriendInfo();
+		System.out.println("직업:" + work);
+	}
+	
+	public void displayBasicFriendInfo() {
+		System.out.println("이름 : " + getName()); // 부모클래스 메소드 호출
+		System.out.println("직업 : " + work);
+	}
+}
+
+
+
+
+
+
+
