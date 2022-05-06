@@ -1,7 +1,7 @@
 # Java 정규수업   
 
-언어 : Java   
-에디터 : Eclipse   
+Langguages : Java   
+Tools : Eclipse   
 
 * chap01 : java 개발 환경구축   
 * chap02 : 변수 & 상수 & 자료형변환   
