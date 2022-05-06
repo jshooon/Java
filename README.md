@@ -1,6 +1,6 @@
 # Java 정규수업   
 
-Langguages : Java   
+Languages : Java   
 Tools : Eclipse   
 
 * chap01 : java 개발 환경구축   
