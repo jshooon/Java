@@ -1,5 +1,5 @@
-# Java
-정규수업   
+# Java 정규수업   
+
 언어 : Java   
 에디터 : Eclipse   
 
